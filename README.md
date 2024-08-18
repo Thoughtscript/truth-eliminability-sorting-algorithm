@@ -95,7 +95,7 @@ Some simple **Truth Table** and basic Model checking summarized succinctly below
 
 The **Truth-Value** for `S ∈ C` is determined by the **Truth Opacity** of a **Sentence** and prior to **Truth-Assignments**. (It's a constraint on the **Interpretation Function** itself as specified in the Draft Paper.)
 
-> Below, `T(S) ↔ S` refers to the specific WFF with Sentential Constant `S` substituted into **T-SCHEME**.
+> Below, `T(S) ↔ S` refers to the specific WFF with Sentential Constant `S` substituted into **T-Scheme**.
 
 ### Truth Eliminable Sentences
 
@@ -110,7 +110,7 @@ Truth Table Semantics:
 
 There are two ways to read this:
 
-1. *Modus Tollens* on the **Argument from Tautology**. If **T-SCHEME** is a **Tautology** then so too is `Q → T-SCHEME`. If `Q → T-SCHEME` isn't a **Tautology** then neither is **T-SCHEME** (which is precisely what `Q → T-SCHEME` is showing in the first place - e.g. **Weakened T-SCHEME**). On this view, both **T-SCHEME** and **KFG** are **Contingent**.
+1. *Modus Tollens* on the **Argument from Tautology**. If **T-Scheme** is a **Tautology** then so too is `Q → T-Scheme`. If `Q → T-Scheme` isn't a **Tautology** then neither is **T-Scheme** (which is precisely what `Q → T-Scheme` is showing in the first place - e.g. **Weakened T-Scheme**). On this view, both **T-Scheme** and **KFG** are **Contingent**.
 2. The fourth and first **Interpretation** above can be ruled out by additional (optional) extensions that modify how the **Interpretation Function** behaves (this is the route primarily endorsed by the Draft Paper but isn't the only route available. In the original Draft, `S` and `T(S)` are harmonized through additional rules added to the construction step of `C(S)` that convert `*` to the second or third interpretation.) prior to **Truth Assignment** itself (akin to the way that the Truth of **Logical Connectives** are calculated after **Atomic Proposition Truth Assignment** and **ZFC Set Theory** which has a complicated setup for the **Domain of Discourse** - both **ZFC Set Theory** and **Zero-Order Logic** are part of **KFG**).
 
 ### Truth Opaque Sentences
@@ -155,7 +155,7 @@ Here:
 
 Note:
 1. One of the paired **Sentences** can behave like the **Truth Teller**. (The **Liar Cycle Negator** of the pair.)
-2. We also require (through optional extensions) that **T-SCHEME** fails if a **Sentence** refers to a another **Truth Opaque** Sentence.
+2. We also require (through optional extensions) that **T-Scheme** fails if a **Sentence** refers to a another **Truth Opaque** Sentence.
 
 #### Liar Cycle Semantics and KFG
 
@@ -179,7 +179,7 @@ Immediately above:
 
 > Some interesting phenomena.
 
-With **F-SCHEME** unmodified:
+With **F-Scheme** (`¬T(S) ↔ F(S)`) unmodified:
 
 | `S` | `¬S` | `T(S)` | `¬T(S)` | **Comment** | `T(S) ↔ S` | `C(S) → (T(S) ↔ S)` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -190,9 +190,9 @@ With **F-SCHEME** unmodified:
 
 The above mirrors **Kleene 3-Value** constructions. The assertion would be that:
 1. Confusion around **3-Value Semantics**;
-2. And, Tarski's **Object-Level/Meta-Level** intutions would then be seen to stem from mismatching **Truth Values**/**Truth Predicates** (where **Language** levels are replaced by priority in **Truth Assignment** within the same Language).
+2. And, Tarski's **Object-Level/Meta-Level** intutions would then be seen to stem from mismatching **Truth Values**/**Truth Predicates** (where **Language** levels are replaced by priority in **Truth Assignment** within the same **Language**).
 
-With **F-SCHEME** also **Weakened** (e.g. - `¬T(S) ↔ F(S)` will sometimes fail), the **Catuṣkoṭi** appears:
+With **F-Scheme** also **Weakened** (e.g. - `¬T(S) ↔ F(S)` will sometimes fail), the **Catuṣkoṭi** appears:
 
 | `S` | `¬S` | `T(S)` | `¬T(S)` | `F(S)` | `¬F(S)` | Comment |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -208,6 +208,16 @@ With **F-SCHEME** also **Weakened** (e.g. - `¬T(S) ↔ F(S)` will sometimes fai
 > The above is the approach recommended in the original Draft - at that time I referred to them as "defects" being unaware of **The Catuṣkoṭi**. I was also unaware that similar "quirks" also appear in JavaScript: `[] == ![]; // -> true`, `true == ![]; // -> false`, `false == ![]; // -> true`.
 
 Please note that the above can all be **Consistently** captured within a **Two-Value**, **Bivalent**, **Classical** Semantics. We've relaxed the required on `T()` and `F()` per the above.
+
+This is the only proposed system that can accomodate all the additional items below:
+1. Parallels intuitions that motivate **3-Value Semantics**.
+2. **The Catuṣkoṭi**.
+3. The empirical fact that people have taken all four positions regarding the **Liar Sentence**:  `False`, `Neither True nor False`, `True and False`, `True`. No other system can "subsume" the rest.
+4. Is **Classical**.
+5. Gets all the other Truth-related (**Alethic**) Paradoxes.
+6. Satifies **Tarski's Undefinability Theorem** for **T-Scheme**.
+7. Blocks McGee's **T-Intro** step.
+8. Is not harmed by Bacon's 2015 argument. If `C` is a predicate it just shows that there's a **Theorem** that's **Truth Opaque** (`S := T(S) → T(S)`) otherwise one can't **Diagonalize** into it at all.
 
 ## Resources and Links
 
