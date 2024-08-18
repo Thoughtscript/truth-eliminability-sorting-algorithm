@@ -188,9 +188,9 @@ With **F-SCHEME** unmodified:
 | `⊤` | `⊥` | `⊥` | `⊤` | `True and False` | `⊥` | Depends on `S` being **Truth Opaque** or not (per the above). |
 | `⊤` | `⊥` | `⊤` | `⊥` | `True` | `⊤` |  `⊤` |
 
-The above mirrors **Kleene 3-Value** constructions:
-1. The assertion would be that confusion around **3-Value Semantics**.
-2. And Tarski's **Object-Level/Meta-Level** intutions would then be seen to stem from mismatching **Truth Values**/**Truth Predicates** (where **Language** levels are replaced by priority in **Truth Assignment** within the same Language).
+The above mirrors **Kleene 3-Value** constructions. The assertion would be that:
+1. Confusion around **3-Value Semantics**;
+2. And, Tarski's **Object-Level/Meta-Level** intutions would then be seen to stem from mismatching **Truth Values**/**Truth Predicates** (where **Language** levels are replaced by priority in **Truth Assignment** within the same Language).
 
 With **F-SCHEME** also **Weakened** (e.g. - `¬T(S) ↔ F(S)` will sometimes fail), the **Catuṣkoṭi** appears:
 
