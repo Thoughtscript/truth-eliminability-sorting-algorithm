@@ -2,7 +2,7 @@
 
 *WIP*
 
-For: ***Classical Extensions of Kripke-Feferman: Constraint Satisfaction and Alethic Paradox***
+For: ***Classical Extensions of Kripke-Feferman: Constraint Satisfaction and Alethic Paradox*** (summarizing key points)
 
 > https://www.thoughtscript.io/papers/000000000013
 
@@ -174,6 +174,40 @@ Regarding the last two **Interpretations**:
 Immediately above:
 1. Each **Model** pairs the respective first and second **Interpretations**.
 2. We observe that `Q` (the **Liar Cycle Negator** of the pair) behaves like **Truth Tellers**.
+
+### Catuṣkoṭi
+
+> Some interesting phenomena.
+
+With **F-SCHEME** unmodified:
+
+| `S` | `¬S` | `T(S)` | `¬T(S)` | **Comment** | `T(S) ↔ S` | `C(S) → (T(S) ↔ S)` |
+| --- | --- | --- | --- | --- | --- | --- |
+| `⊥` | `⊤` | `⊥` | `⊤` | `False` | `⊤` |  `⊤` |
+| `⊥` | `⊤` | `⊤` | `⊥` | `True and False` | `⊥` | Depends on `S` being **Truth Opaque** or not (per the above). |
+| `⊤` | `⊥` | `⊥` | `⊤` | `True and False` | `⊥` | Depends on `S` being **Truth Opaque** or not (per the above). |
+| `⊤` | `⊥` | `⊤` | `⊥` | `True` | `⊤` |  `⊤` |
+
+The above mirrors **Kleene 3-Value** constructions:
+1. The assertion would be that confusion around **3-Value Semantics**.
+2. And Tarski's **Object-Level/Meta-Level** intutions would then be seen to stem from mismatching **Truth Values**/**Truth Predicates** (where **Language** levels are replaced by priority in **Truth Assignment** within the same Language).
+
+With **F-SCHEME** also **Weakened** (e.g. - `¬T(S) ↔ F(S)` will sometimes fail), the **Catuṣkoṭi** appears:
+
+| `S` | `¬S` | `T(S)` | `¬T(S)` | `F(S)` | `¬F(S)` | Comment |
+| --- | --- | --- | --- | --- | --- | --- |
+| `⊥` | `⊤` | `⊥` | `⊤` | `⊤` | `⊥` | `False` |
+| `⊥` | `⊤` | `⊥` | `⊤` | `⊥` | `⊤` | `Neither True nor False` |
+| `⊥` | `⊤` | `⊤` | `⊥` | `⊤` | `⊥` | `True and False` |
+| `⊥` | `⊤` | `⊤` | `⊥` | `⊥` | `⊤` | `True` |
+| `⊤` | `⊥` | `⊥` | `⊤` | `⊤` | `⊥` | `False` |
+| `⊤` | `⊥` | `⊥` | `⊤` | `⊥` | `⊤` | `Neither True nor False` |
+| `⊤` | `⊥` | `⊤` | `⊥` | `⊤` | `⊥` | `True and False` |
+| `⊤` | `⊥` | `⊤` | `⊥` | `⊥` | `⊤` | `True` |
+
+> The above is the approach recommended in the original Draft - at that time I referred to them as "defects" being unaware of **The Catuṣkoṭi**. I was also unaware that similar "quirks" also appear in JavaScript: `[] == ![]; // -> true`, `true == ![]; // -> false`, `false == ![]; // -> true`.
+
+Please note that the above can all be **Consistently** captured within a **Two-Value**, **Bivalent**, **Classical** Semantics. We've relaxed the required on `T()` and `F()` per the above.
 
 ## Resources and Links
 
