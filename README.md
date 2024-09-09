@@ -2,11 +2,17 @@
 
 *WIP*
 
-For: ***Classical Extensions of Kripke-Feferman: Constraint Satisfaction and Alethic Paradox*** (summarizing key points)
+The original paper (2013-2014) was conferenced and referred to two of the top Logic journals in the English-speaking world but I declined to begin the lengthy (often 2+ year) academic publication process.
+
+> Original draft hosted here: https://www.thoughtscript.io/papers/000000000002
+
+For the more recent: ***Classical Extensions of Kripke-Feferman: Constraint Satisfaction and Alethic Paradox*** (summarizing key points)
 
 > https://www.thoughtscript.io/papers/000000000013
 
 > Mirrored: https://thoughtscript-io.onrender.com/papers/000000000013.html
+
+## Context
 
 There's widespread consensus that no offered solution to the **Liar Paradox** gets all of the following:
 1. All the other **Alethic Paradoxes**: *Yablo-Visser*, *Liar Cycles*, *Revenge Sentences*, *Boolean Compounds*, *Curry Compounds*, *McGee Sentences*, etc.
@@ -234,6 +240,28 @@ By selecting extensible constructions variants of **KFG** strengthen certain fea
 
 I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logic`, the correct semantics for Modality, and so on.
 
+> And indeed such an approach aligns well with the general history of mathematical logic: Lukasiewicz, Spencer-Brown, Nicod, Syllogistic Square, Tarski, Tableaux methods, Venn, Boole, and the like all leverage creativity with **Classical** constructivity to tackle similar questions from different vantages. No modification of **Classical** logic or Set Theory is required!
+
+## Key Philosophical Arguments
+
+1. The Argument from Tautology:
+   * If **T-Scheme** is **Analytic**, then so is **Restricted T-Scheme** (by Classical inferential **Weakening**)
+   * If **Restricted T-Scheme** isn't **Analytic**, then **T-Scheme** isn't (**Modus Tollens**). But, then **T-Scheme** would be **Restricted** in some form (or just wrong) undermining the alternatives.
+2. The Argument from History:
+   * Every supposedly Univeral (scientific) Law, Scientific Theory, and Mathematical Axiom has been proven False (Globally or Locally - the so-called *Pessimistic Meta-Induction*). Examples: Relativity only applies at the "macro-level", Hyperbolic Geometry which rejects Axioms of Euclidean Geometry, etc.
+   * Truth is a scientific and natural language phenomena (Linguistics is the science of language).
+   * Therefore, we have no good reason to think that Truth Predication wouldn't also be similarly **Restricted** to a subdomain of naturally occurring phenomena. (E.g. it fails for **Truth Opacity** but not for **Truth Eliminability**.)
+3. It's the only theory that explains all the diverging views on the Truth Predicate and Liar Sentence (it accommodate each other approach within the consistent models described above - e.g. the **Catuṣkoṭi**). In that way it's the only theory that aligns with the empirical data! (The countless attempts and approaches to solve the Liar Paradox - why there are many, diverging Truth Values, why we can even talk about different Truth Assignments for the Liar Sentence!)
+4. Similar quirks show up in JavaScript and other programming languages.
+   ```javascript
+   // JavaScript
+   [] == ![]; // -> true
+   true == ![]; // -> false
+   false == ![]; // -> true
+   ```
+5. It provides a philosophical and technical solution (formal proof of correctness).
+6. It gets all the phenomena and is **Consistent**.
+
 ## Resources and Links
 
 > *Non-Exhaustive (but sufficient for what's described in the contents of this README) - please see the Paper for a complete Bibliography*.
@@ -246,6 +274,8 @@ I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logi
 1. Priest, G. Doubt Truth to Be a Liar. (Oxford University Press, 2006)
 1. Priest, G. Logic of Paradox. Journal Of Philosophical Logic. 8, 219-241 (1979)
 1. Tarski, A. The Semantic Conception of Truth and the Foundations of Semantics. Philosophy And Phenomenological Research. 4, 341-376 (1943)
+1. https://github.com/denysdovhan/wtfjs?tab=readme-ov-file#true-is-not-equal--but-not-equal--too
+1. https://logic.pku.edu.cn/ann_attachments/the%20outline%20of%20a%20new%20solution%20to%20the%20liar%20paradox134720412881.pdf
 
 
 
