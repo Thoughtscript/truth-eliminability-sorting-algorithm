@@ -111,7 +111,7 @@ Truth Table Semantics:
 There are two ways to read this:
 
 1. *Modus Tollens* on the **Argument from Tautology**. If **T-Scheme** is a **Tautology** then so too is `Q → T-Scheme`. If `Q → T-Scheme` isn't a **Tautology** then neither is **T-Scheme** (which is precisely what `Q → T-Scheme` is showing in the first place - e.g. **Weakened T-Scheme**). On this view, both **T-Scheme** and **KFG** are **Contingent**.
-2. The fourth and first **Interpretation** above can be ruled out by additional (optional) extensions that modify how the **Interpretation Function** behaves (this is the route primarily endorsed by the Draft Paper but isn't the only route available. In the original Draft, `S` and `T(S)` are harmonized through additional rules added to the construction step of `C(S)` that convert `*` to the second or third interpretation.) prior to **Truth Assignment** itself (akin to the way that the Truth of **Logical Connectives** are calculated after **Atomic Proposition Truth Assignment** and **ZFC Set Theory** which has a complicated setup for the **Domain of Discourse** - both **ZFC Set Theory** and **Zero-Order Logic** are part of **KFG**).
+2. The fourth and first **Interpretations** above can be ruled out by additional (optional) extensions that modify how the **Interpretation Function** behaves (this is the route primarily endorsed by the Draft Paper but isn't the only route available. In the original Draft, `S` and `T(S)` are harmonized through additional rules added to the construction step of `C(S)` that convert `*` to the second or third interpretation.) prior to **Truth Assignment** itself (akin to the way that the Truth of **Logical Connectives** are calculated after **Atomic Proposition Truth Assignment** and **ZFC Set Theory** which has a complicated setup for the **Domain of Discourse** - both **ZFC Set Theory** and **Zero-Order Logic** are part of **KFG**). This converts **KFG** into a global validity (**Tautology**) otherwise it'll fail will the above unmodified construction (whilst remaining **(Logically) Consistent** nevertheless).
 
 ### Truth Opaque Sentences
 
@@ -207,6 +207,8 @@ With **F-Scheme** also **Weakened** (e.g. - `¬T(S) ↔ F(S)` will sometimes fai
 
 > The above is the approach recommended in the original Draft - at that time I referred to them as "defects" being unaware of **The Catuṣkoṭi**. I was also unaware that similar "quirks" also appear in JavaScript: `[] == ![]; // -> true`, `true == ![]; // -> false`, `false == ![]; // -> true`.
 
+> To be clearer still: therefore, the many great religions of the world (as well as their opposites - their heresies) - Orthodox Christianity, Catholicism, Islam, Hinduism, Buddhism, Judaism, and many more still - along with the greatest mathematical and scientific theorists, Hegelians, Platonists, Aristotelians, and all the other major views of philosophy about Truth can be inclusively accommodated. **KFG** *does not* rule on which of these interpretations is correct but *it's the only view that does not rule any of them out*. In this way it is thoroughly pluralist and inclusive of the world's greatest ideas.
+
 Please note that the above can all be **Consistently** captured within a **Two-Value**, **Bivalent**, **Classical** Semantics. We've relaxed the required on `T()` and `F()` per the above.
 
 This is the only proposed system that can accomodate all the additional items below:
@@ -218,6 +220,19 @@ This is the only proposed system that can accomodate all the additional items be
 6. Satifies **Tarski's Undefinability Theorem** for **T-Scheme**.
 7. Blocks McGee's **T-Intro** step.
 8. Is not harmed by Bacon's 2015 argument. If `C` is a predicate it just shows that there's a **Theorem** that's **Truth Opaque** (`S := T(S) → T(S)`) otherwise one can't **Diagonalize** into it at all.
+
+## Extensions
+
+So, **KFG** opens the door to a fully **Classical**, **Monistic** (single Truth Predicate), and **Restrictionism** (as a topic in multiple debates: Logical Nihilism, Logical Skepticism, Alethic Paradox, etc.). 
+
+By selecting extensible constructions variants of **KFG** strengthen certain features discussed above:
+
+1. Harmonization of Truth Assignments (aligning Truth Values and Truth Predicates in consistent assingments).
+2. Preference for Predicates over Set Inclusion or vice-versa.
+3. Model selection.
+4. Analyticity of the Restricted T-Scheme.
+
+I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logic`, the correct semantics for Modality, and so on.
 
 ## Resources and Links
 
