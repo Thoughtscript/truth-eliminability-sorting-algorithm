@@ -240,7 +240,7 @@ By selecting extensible constructions variants of **KFG** strengthen certain fea
 
 I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logic`, the correct semantics for Modality, and so on.
 
-> And indeed such an approach aligns well with the general history of mathematical logic: Lukasiewicz, Spencer-Brown, Nicod, Syllogistic Square, Tarski, Tableaux methods, Venn, Boole, and the like all leverage creativity with **Classical** constructivity to tackle similar questions from different vantages. No modification of **Classical** logic or Set Theory is required!
+> And indeed such an approach aligns well with the general history of mathematical logic: Lukasiewicz, Spencer-Brown, Nicod, Syllogistic Square, Tarski, Tableaux methods, Venn, Boole, and the like all leverage creativity with **Classical** constructivity to tackle similar questions from different vantage points. No modification of **Classical** logic or Set Theory is required!
 
 ## Key Philosophical Arguments
 
