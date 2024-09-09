@@ -74,7 +74,7 @@ S := T(⟨S⟩)
 
 A Finite, **Sorting**, Algorithm used to determine whether a **Sentence** is **Truth Opaque** or not.
 
-May circumvent general concerns stemming from **Bacon 2015** (my original paper was never published):
+May circumvent general concerns stemming from [**Bacon 2015**](https://andrew-bacon.github.io/papers/Indeterminacy%20and%20Revenge.pdf) (my original paper was never published):
 * Appears to be a new "species" of **Restrictionist** approaches that also doesn't require every **Sentence** or **Theorem** to be "Cleaned", "Healthy", or "Debuggered".
   * E.g. - those approaches that follow the Classical Axiom, Theorem, and Tautology: **Weakening** `P → (Q → P)`.
   * The **T-Scheme** is actually a **Material Conditional** with some **Constraint**, "Checkpoint", or condition that must be met / a "Restriction" on it.
