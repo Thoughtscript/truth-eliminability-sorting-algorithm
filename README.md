@@ -2,7 +2,7 @@
 
 *WIP*
 
-The original paper (2013-2014) was conferenced and referred to two of the top Logic journals in the English-speaking world but I declined to begin the lengthy (often 2+ year) academic publication process.
+The original paper (2013-2014) was conferenced and referred to two of the top Logic journals in the English-speaking world but I declined to begin the lengthy (often 2+ years) academic publication process.
 
 > Original draft hosted here: https://www.thoughtscript.io/papers/000000000002
 
