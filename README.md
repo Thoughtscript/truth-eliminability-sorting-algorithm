@@ -2,7 +2,7 @@
 
 *WIP*
 
-The original paper (2013-2014) was conferenced and referred to two of the top Logic journals in the English-speaking world but I declined to begin the lengthy (often 2+ years) academic publication process.
+The original paper (2013-2014) was conferenced and referred to two of the top Logic journals in the English-speaking world (and much to my surprise!) but I declined to begin the lengthy (often 2+ years) academic publication process.
 
 > Original draft hosted here: https://www.thoughtscript.io/papers/000000000002
 
@@ -244,14 +244,14 @@ I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logi
 
 ## Key Philosophical Arguments
 
-1. The Argument from Tautology:
+1. The **Argument from Tautology**:
    * If **T-Scheme** is **Analytic**, then so is **Restricted T-Scheme** (by Classical inferential **Weakening**)
    * If **Restricted T-Scheme** isn't **Analytic**, then **T-Scheme** isn't (**Modus Tollens**). But, then **T-Scheme** would be **Restricted** in some form (or just wrong) undermining the alternatives.
-2. The Argument from History:
+2. The **Argument from History**:
    * Every supposedly Univeral (scientific) Law, Scientific Theory, and Mathematical Axiom has been proven False (Globally or Locally - the so-called *Pessimistic Meta-Induction*). Examples: Relativity only applies at the "macro-level", Hyperbolic Geometry which rejects Axioms of Euclidean Geometry, etc.
    * Truth is a scientific and natural language phenomena (Linguistics is the science of language).
    * Therefore, we have no good reason to think that Truth Predication wouldn't also be similarly **Restricted** to a subdomain of naturally occurring phenomena. (E.g. it fails for **Truth Opacity** but not for **Truth Eliminability**.)
-3. It's the only theory that explains all the diverging views on the Truth Predicate and Liar Sentence (it accommodate each other approach within the consistent models described above - e.g. the **Catuṣkoṭi**). In that way it's the only theory that aligns with the empirical data! (The countless attempts and approaches to solve the Liar Paradox - why there are many, diverging Truth Values, why we can even talk about different Truth Assignments for the Liar Sentence!)
+3. It's the only theory that explains all the diverging views on the Truth Predicate and **Liar Sentence** (it accommodate each other approach within the consistent models described above - e.g. the **Catuṣkoṭi**). In that way it's the only theory that aligns with the empirical data! (The countless attempts and approaches to solve the **Liar Paradox** - why there are many, diverging Truth Values, why we can even talk about different Truth Assignments for the **Liar Sentence**!)
 4. Similar quirks show up in JavaScript and other programming languages.
    ```javascript
    // JavaScript
