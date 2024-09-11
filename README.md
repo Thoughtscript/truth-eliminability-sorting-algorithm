@@ -38,12 +38,13 @@ Here and below I’ll use the convention `⟨`,`⟩` to denote the familiar **G�
 1. **Sentence Name** - the **Name** of a **Sentence** (e.g. - a **Variable Name** in Computer Science) `P` for a **Sentence** `S` shall be written: `P := S`.
 2. **Name-Forming Operator** - `⟨S⟩` represents the mapping of some **Sentence**, **Proposition**, or **Expression** `S` to its **Name**. `⟨S⟩ ≡ P := S` returning `P`.
 3. **Diagonalization** - a **Technique** that associates the **Fixed Point** of a **Sentence** containing `S` as a sub-expression so that `S` is its own name.
+4. (Below, if `S` is the name of a sentence containing `S` as sub-**Expression**, both `⟨S⟩` and `S` will be used interchangeably as **Names**.)
 
 > This should come as no surprise since it forms the historical and mathematical basis for Variable Naming, Memory Addressing, and Value Assignment within programming languages.
 
 ### T-Scheme
 
-1. *Tarski’s 1933 **Definition of Truth***  - `For all x, True(x) if and only if ϕ(x)`.
+1. *Tarski’s 1933* **Definition of Truth**  - `For all x, True(x) if and only if ϕ(x)`.
 2. **Modern Formulation** - (For all `S`) `T(⟨S⟩) ↔ S`:
    * **Capture** (or **T-Intro**) - conditional subrule of the **T-Scheme** biconditional. The rule going from `S` to `T(⟨S⟩)`.
    * **Release** - conditional subrule of the **T-Scheme** biconditional. The rule going from `T(⟨S⟩)` to `S`.
