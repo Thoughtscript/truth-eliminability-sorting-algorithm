@@ -1,6 +1,6 @@
 # Truth-Eliminability-Sorting-Algorithm
 
-*WIP*
+*WIP* (*Future Thesis and/or Dissertation.*)
 
 The original paper (2013-2014) was conferenced and referred to two of the top Logic journals in the English-speaking world (and much to my surprise!) but I declined to begin the lengthy (often 2+ years) academic publication process.
 
