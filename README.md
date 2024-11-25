@@ -66,11 +66,11 @@ S := T(⟨S⟩)
 ### Properties of Truth and T-Schema
 
 1. **Truth Transparency** - the principle that `S` and `T(⟨S⟩)` are always and everywhere intersubstitutable.
+   * *(Introductory Wikipedia article on [Referential Transparency](https://en.wikipedia.org/wiki/Referential_transparency) in Philosophy and Computer Science.)*
 2. **Truth Eliminability** - (W.R.T. to **T-Scheme**) in rewriting `T(⟨S⟩)` in the lexiographical form `S` (via **Truth Transparency**) `S` *must* contain content that *doesn’t* predicate **Truth**.
    * A stronger criterion on (or reading of) **Truth Transparency** (and **T-Scheme**).
    * **Truth Transparency** requires that `T(⟨S⟩)` can be rewritten in a form where no `T` appears (where **Truth** is not predicated).
 3. **Truth Opacity** - when a **Sentence** `S` cannot be rewritten (via **Truth Transparency**) without a `T` appearing (where **Truth** is not predicated). Such a **Sentence** is **Truth Opaque**.
-   * *(Introductory Wikipedia article on [Referential Transparency](https://en.wikipedia.org/wiki/Referential_transparency) in Philosophy and Computer Science.)*
 
 ## Truth Eliminability Algorithm and KFG
 
