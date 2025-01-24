@@ -249,8 +249,10 @@ I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logi
 1. The **Argument from Tautology**:
    * If **T-Scheme** is **Analytic**, then so is **Restricted T-Scheme** (by Classical inferential **Weakening**)
    * If **Restricted T-Scheme** isn't **Analytic**, then **T-Scheme** isn't (**Modus Tollens**). But, then **T-Scheme** would be **Restricted** in some form (or just wrong) undermining the alternatives.
+     * If **T-Scheme** is **Restricted**, it collapses into **KFG**.
+     * If not, then we have no reason to defend **T-Scheme** in the first place.
 2. The **Argument from History**:
-   * Every supposedly Univeral (scientific) Law, Scientific Theory, and Mathematical Axiom has been proven False (Globally or Locally - the so-called *Pessimistic Meta-Induction*). Examples: Relativity only applies at the "macro-level", Hyperbolic Geometry which rejects Axioms of Euclidean Geometry, etc.
+   * Every supposedly Universal (scientific) Law, Scientific Theory, and Mathematical Axiom has been proven False (Globally or Locally - the so-called *Pessimistic Meta-Induction*). Examples: Relativity only applies at the "macro-level", Hyperbolic Geometry which rejects Axioms of Euclidean Geometry, etc.
    * Truth is a scientific and natural language phenomena (Linguistics is the science of language).
    * Therefore, we have no good reason to think that Truth Predication wouldn't also be similarly **Restricted** to a subdomain of naturally occurring phenomena. (E.g. it fails for **Truth Opacity** but not for **Truth Eliminability**.)
 3. It's the only theory that explains all the diverging views on the Truth Predicate and **Liar Sentence** (it accommodate each other approach within the consistent models described above - e.g. the **Catuṣkoṭi**). In that way it's the only theory that aligns with the empirical data! (The countless attempts and approaches to solve the **Liar Paradox** - why there are many, diverging Truth Values, why we can even talk about different Truth Assignments for the **Liar Sentence**!)
