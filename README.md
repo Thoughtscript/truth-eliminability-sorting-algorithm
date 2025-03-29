@@ -268,8 +268,8 @@ I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logi
 5. It provides a philosophical and technical solution (formal proof of correctness).
 6. It gets all the phenomena and is **Consistent**.
 7. On **Classicality** itself:
-   * Note: **KFG** *does not* commit one to the *truth* of **Classical Logic** (merely that **Classical Logic** is **Logically Consistent** and therefore should not be hastily abandoned for **Non-Classical Logic** upon consideration of the **Liar Paradox**).
-   * In other words, the **Logical Realism** debate (e.g. - "Which Logic (if any) or Logics are the ultimate descriptin of reality or *The Correct Logic*") is a separate concern (although this might be of interest in that debate too).
+   * Note: **KFG** *does not* commit one to the "truth"/"correctness" of **Classical Logic** (merely that **Classical Logic** is **Logically Consistent** and therefore should not be hastily abandoned for **Non-Classical Logic** upon consideration of the **Liar Paradox**).
+   * In other words, the **Logical Realism** debate (e.g. - "Which Logic (if any) or Logics are the ultimate descriptin of reality or *The Correct Logic*") is a *separate* concern (although **KFG** might be of interest in that debate too).
    * The proofs given above hold in **Kleene 3-Value Algebras** (so the approach doesn't rely on **Classical Logic** or *Beg the Question* w.r.t. the correctness of the Metalogic at hand - they don't require **Classical Logic** to hold in the Metalogic).
 
 ## Resources and Links
