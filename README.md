@@ -99,6 +99,8 @@ Some simple **Truth Table** and basic Model checking summarized succinctly below
 
 > Demonstrates Classically Consistent Models (the primary goal) and ways to address the ancillary goals: **KFG** global validity and embedded **Catuṣkoṭi**.
 
+Since `S` can be any arbitrary **Sentence**, the below constitutes **Proof by Mathematical Induction** (per **pp. 11** of the original draft).
+
 ### Truth Assignments 
 
 The **Truth-Value** for `S ∈ C` is determined by the **Truth Opacity** of a **Sentence** and prior to **Truth-Assignments**. (It's a constraint on the **Interpretation Function** itself as specified in the Draft Paper.)
@@ -265,6 +267,10 @@ I think this is akin to subfields like the debate between `S4` vs `S5 Modal Logi
    ```
 5. It provides a philosophical and technical solution (formal proof of correctness).
 6. It gets all the phenomena and is **Consistent**.
+7. On **Classicality** itself:
+   * Note: **KFG** *does not* commit one to the *truth* of **Classical Logic** (merely that **Classical Logic** is **Logically Consistent** and therefore should not be hastily abandoned for **Non-Classical Logic** upon consideration of the **Liar Paradox**).
+   * In other words, the **Logical Realism** debate (e.g. - "Which Logic (if any) or Logics are the ultimate descriptin of reality or *The Correct Logic*") is a separate concern (although this might be of interest in that debate too).
+   * The proofs given above hold in **Kleene 3-Value Algebras** (so the approach doesn't rely on **Classical Logic** or *Beg the Question* w.r.t. the correctness of the Metalogic at hand - they don't require **Classical Logic** to hold in the Metalogic).
 
 ## Resources and Links
 
