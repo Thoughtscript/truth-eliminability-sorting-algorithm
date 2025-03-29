@@ -99,7 +99,7 @@ Some simple **Truth Table** and basic Model checking summarized succinctly below
 
 > Demonstrates Classically Consistent Models (the primary goal) and ways to address the ancillary goals: **KFG** global validity and embedded **Catuṣkoṭi**.
 
-Since `S` can be any arbitrary **Sentence**, the below constitutes **Proof by Mathematical Induction** (per **pp. 11** of the original draft).
+Since `S` can be any arbitrary **Sentence** within **KFG**, the below constitutes a **Consistency Proof** by **Mathematical Induction** (per **pp. 11** of the original draft).
 
 ### Truth Assignments 
 
