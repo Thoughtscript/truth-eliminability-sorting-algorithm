@@ -45,7 +45,7 @@ Formal definitions.
 3. **Truth Predicates** - how we ascribe **Truth** to a **Sentence** *within* a **Language**.
    * *See below.*
 4. **Axioms for Truth** - the Mathematically precise general Semantics and behavior of the word `Truth` in Natural (and Artificial) Language - e.g. it's **Inferential Properties** (for reasoning), the valid moves/language norms allowed in discourse/social activities, it's Linguistic Definition especially in consideration of the Liar Paradox. 
-   * From an applied standpoint: people definitely talk about the **Liar Paradox** (Tarski's **Semantic Conception of Truth** is one of the most cited papers of all time).
+   * From an applied standpoint: people definitely talk about the **Liar Paradox** (Tarski's ***Semantic Conception of Truth*** is one of the most cited papers of all time).
    * How does one correctly parse, understood, or define these concepts in **Large Language Models**? In **Word Vector** notation, is the computed distance for `True(S)` and `S` within a Corpus equivalent?
    * This topic is the concern of Linguistics (the Scientific study of Language), Philosophy of Language, etc.
 
