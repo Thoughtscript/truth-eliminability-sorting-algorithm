@@ -31,6 +31,26 @@ Formal definitions.
 
 > Consult **Section 3.2** for an overview of **Truth as a Metalinguistic Predicate**.
 
+### Truth Values, Truth Makers, Truth Predicates, and Axioms for Truth
+
+*Some elementary definitions that are nevertheless useful to explicitly state and clarify here.*
+
+1. **Truth Values** - the **Value** assigned to a  **Sentence** through a **Truth Assignment** (**Truth Interpretation**).
+   * The historical tradition (in Maths and Logic, the academic fields/disciplines) follows Wittgenstein in taking **Truth Assignments** as **Functions** (**Truth Functional**) - a Mapping of **Sentence** to a **Truth Value**.
+   * **Truth Assignments** are Mapped in two steps: **Propositional Variable Assignment** and then complex **Sentential Assignment** (via **Truth Tables**).
+   * This topic has traditionally been confined to the academic fields/disciplines of Philosophy and Logic. (Are there three **Truth Values**? Two? Is Logic **Classical**?)
+2. **Truth Makers** - what determines the *actual* **Truth Value** of a **Proposition**. The objective circumstances that make a Linguistic *representation* of that scenario (**Fact**), **True**.
+   * An accurate (correct) **Model** faithfully depicts (*represents*) such **Truth Conditions** and **Truth Makers**.
+   * Properly understood, Scientists and Mathematicians uncover or discover such **Facts**. (`F = M x A`, `1 + 1 = 2`, etc.)
+3. **Truth Predicates** - how we ascribe **Truth** to a **Sentence** *within* a **Language**.
+   * *See below.*
+4. **Axioms for Truth** - the Mathematically precise general Semantics and behavior of the word `Truth` in Natural (and Artificial) Language - e.g. it's **Inferential Properties** (for reasoning), the valid moves in discourse, it's Linguistic Definition especially in consideration of the Liar Paradox. 
+   * From an applied standpoint: people definitely talk about the **Liar Paradox** (Tarski's **Semantic Conception of Truth** is one of the most cited papers of all time).
+   * How does one correctly parse, understood, or define these concepts in **Large Language Models**? In **Word Vector** notation, is the computed distance for `True(S)` and `S` within a Corpus equivalent?
+   * This topic is the concern of Linguistics (the Scientific study of Language), Philosophy of Language, etc.
+
+> This paper is concerned with the latter two topics. It is not concerned with altering  or understanding **Fact**. It seeks instead to address a long-standing problem with the **Truth Predicate** and how we are to use it in Mathematics, Logic, and other technical disciplines.
+
 ### Sentences Names, Name-Forming Operators, and Diagonalization
 
 Here and below I’ll use the convention `⟨`,`⟩` to denote the familiar **Gödel Numbering** technique:
@@ -72,7 +92,7 @@ S := T(⟨S⟩)
    * **Truth Transparency** requires that `T(⟨S⟩)` can be rewritten in a form where no `T` appears (where **Truth** is not *predicated*).
 3. **Truth Opacity** - when a **Sentence** `S` cannot be rewritten (via **Truth Transparency**) without a `T` appearing (where **Truth** is not *predicated*). Such a **Sentence** is **Truth Opaque**.
 
-## Truth Eliminability Algorithm and KFG
+## Truth Predicate Eliminability Algorithm and KFG
 
 A Finite, **Sorting**, Algorithm used to determine whether a **Sentence** is **Truth Opaque** or not.
 
