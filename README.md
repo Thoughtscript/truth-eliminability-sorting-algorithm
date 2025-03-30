@@ -90,7 +90,7 @@ S := T(⟨S⟩)
 2. **Truth Eliminability** - (W.R.T. to **T-Scheme**) in rewriting `T(⟨S⟩)` in the lexiographical form `S` (via **Truth Transparency**) `S` *must* contain content that *doesn’t* predicate **Truth**.
    * A stronger criterion on (or reading of) **Truth Transparency** (and **T-Scheme**).
    * **Truth Transparency** requires that `T(⟨S⟩)` can be rewritten in a form where no `T` appears (where **Truth** is not *predicated*).
-3. **Truth Opacity** - when a **Sentence** `S` cannot be rewritten (via **Truth Transparency**) without a `T` appearing (where **Truth** is not *predicated*). Such a **Sentence** is **Truth Opaque**.
+3. **Truth Opacity** - when a **Sentence** `S` cannot be rewritten/restated (via **Truth Transparency**) without a `T` appearing (where **Truth** is not *predicated* and all while keeping its Semantic Content and **Truth Value**). Such a **Sentence** is **Truth Opaque**.
 
 ## Truth Predicate Eliminability Algorithm and KFG
 
